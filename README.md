@@ -69,3 +69,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# my-first-app" 
+
+
+
+=> to run our application
+
+first open vs code
+open the app directory
+to open the terminal, click ctrl+`
+type "npm start" to start your application
+
+=> to push our changes to git
+
+first of all make sure the app is running properly(without any error)
+"git status"                      - it will show all the changed files, verify those are the files which you need to push to git
+"git add ."                                        - it will add all the files to stage 
+git commit -m "define the changes in short"       - to commit our changes with the commit message
+git pull                                          - this will get all the changes that are done by the other team members 
+git push                - to push our changes
